@@ -1,7 +1,3 @@
-# Face-and-Hand-Landmarks-Detection-
-
-Creating a README file for a GitHub repository that involves Face and Hand Landmarks Detection using OpenCV and MediaPipe is essential for providing clear documentation to users and potential contributors. Here's a sample README template to help you get started:
-
 # Face and Hand Landmarks Detection with OpenCV and MediaPipe
 
 This repository contains code and resources for detecting and tracking face and hand landmarks using OpenCV and the MediaPipe library. This project is designed for real-time facial and hand gesture analysis and can be used for a wide range of applications, including sign language recognition, facial expressions analysis, and more.
