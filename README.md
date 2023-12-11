@@ -1,4 +1,4 @@
-# Face and Hand Detection with OpenCV and MediaPipe
+# Face and Hand Landmarks Detection  with OpenCV and MediaPipe
 
 This repository contains code and resources for detecting and tracking face and hand landmarks using OpenCV and the MediaPipe library. This project is designed for real-time facial and hand gesture analysis and can be used for a wide range of applications, including sign language recognition, facial expressions analysis, and more.
 
