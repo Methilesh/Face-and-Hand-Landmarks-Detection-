@@ -1,28 +1,35 @@
 **Face and Hand Landmarks Detection with OpenCV and MediaPipe**
 
-**Overview:**
-This repository contains Python code for detecting face and hand landmarks using OpenCV and MediaPipe. The project utilizes the MediaPipe library for robust and efficient detection of facial landmarks and hand landmarks in images and video streams. This can be useful for various applications including augmented reality, gesture recognition, and facial expression analysis.
+# Face and Hand Landmarks Detection with OpenCV and MediaPipe
 
-**skills:**
-1. Python 3.x
-2. OpenCV (cv2)
-3. MediaPipe library
-4. NumPy
-5. pandas
-6. matpltlib
-7. seaborn
+This repository provides an implementation of face and hand landmarks detection using OpenCV and MediaPipe libraries. The code demonstrates how to detect and visualize facial landmarks (e.g., eyes, nose, mouth) and hand landmarks (e.g., fingertips, joints) in real-time using a webcam feed.
 
-**Result:**
-The code provided in this repository allows you to:
-- Detect facial landmarks such as eyes, nose, mouth, etc.
-- Detect landmarks for hand gestures including fingers, palm, etc.
-- Draw the detected landmarks on the input images or video frames.
-- Perform real-time landmark detection from webcam feed or pre-recorded videos.
+## Requirements
+- Python (>= 3.6)
+- OpenCV (>= 4.5.3)
+- MediaPipe (>= 0.8.7.1)
 
-The resulting landmarks can be used for various purposes such as:
-- Tracking facial expressions.
-- Recognizing hand gestures for controlling applications.
-- Developing interactive applications like virtual makeup try-on, augmented reality filters, etc.
+You can install the required packages using pip:
+```bash
+pip install opencv-python
+pip install mediapipe
+```
+
+## Usage
+1. Clone this repository:
+```bash
+git clone https://github.com/your_username/face-hand-landmarks.git
+cd face-hand-landmarks
+```
+
+2. Run the main script:
+```bash
+python main.py
+```
+
+This will open a window displaying the webcam feed with face and hand landmarks overlaid in real-time.
+
+## result
 
  ![Screenshot 2023-10-12 205520](https://github.com/Methilesh/Face-and-Hand-Landmarks-Detection-/assets/141352214/5a814874-125e-4489-90c0-1477c3a955a2)
 
