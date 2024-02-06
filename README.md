@@ -1,50 +1,28 @@
-# Face and Hand Landmarks Detection  with OpenCV and MediaPipe
+**Face and Hand Landmarks Detection with OpenCV and MediaPipe**
 
-This repository contains code and resources for detecting and tracking face and hand landmarks using OpenCV and the MediaPipe library. This project is designed for real-time facial and hand gesture analysis and can be used for a wide range of applications, including sign language recognition, facial expressions analysis, and more.
+**Overview:**
+This repository contains Python code for detecting face and hand landmarks using OpenCV and MediaPipe. The project utilizes the MediaPipe library for robust and efficient detection of facial landmarks and hand landmarks in images and video streams. This can be useful for various applications including augmented reality, gesture recognition, and facial expression analysis.
 
-## Table of Contents
+**skills:**
+1. Python 3.x
+2. OpenCV (cv2)
+3. MediaPipe library
+4. NumPy
+5. pandas
+6. matpltlib
+7. seaborn
 
-- [Demo](#demo)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
--  result
+**Result:**
+The code provided in this repository allows you to:
+- Detect facial landmarks such as eyes, nose, mouth, etc.
+- Detect landmarks for hand gestures including fingers, palm, etc.
+- Draw the detected landmarks on the input images or video frames.
+- Perform real-time landmark detection from webcam feed or pre-recorded videos.
 
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- [OpenCV](https://opencv.org/) installed.
-- [MediaPipe](https://mediapipe.dev/) installed.
-- Python 3.x.
-
-## Getting Started
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/yourusername/Face-and-Hand-Landmarks-Detection.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd Face-and-Hand-Landmarks-Detection
-   ```
-
-3. Install the required Python packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the project:
-
-   ```bash
-   python main.py
-   ```
-
-## result
-
+The resulting landmarks can be used for various purposes such as:
+- Tracking facial expressions.
+- Recognizing hand gestures for controlling applications.
+- Developing interactive applications like virtual makeup try-on, augmented reality filters, etc.
 
  ![Screenshot 2023-10-12 205520](https://github.com/Methilesh/Face-and-Hand-Landmarks-Detection-/assets/141352214/5a814874-125e-4489-90c0-1477c3a955a2)
 
@@ -52,10 +30,5 @@ Before you begin, ensure you have met the following requirements:
 
 
 
-
-
-For detailed documentation and usage examples, please refer to our [Wiki](https://github.com/yourusername/Face-and-Hand-Landmarks-Detection/wiki).
-
-We appreciate your interest and welcome your contributions to this project!
 
 
