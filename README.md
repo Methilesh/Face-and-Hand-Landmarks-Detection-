@@ -1,33 +1,49 @@
-**Face and Hand Landmarks Detection with OpenCV and MediaPipe**
+# Face and Hand Landmarks Detection using OpenCV and MediaPipe
 
-# Face and Hand Landmarks Detection with OpenCV and MediaPipe
+This project demonstrates real-time detection of facial and hand landmarks using OpenCV and MediaPipe, a machine learning framework for customizable ML solutions. The project utilizes deep learning models provided by MediaPipe for robust facial and hand landmark detection.
 
-This repository provides an implementation of face and hand landmarks detection using OpenCV and MediaPipe libraries. The code demonstrates how to detect and visualize facial landmarks (e.g., eyes, nose, mouth) and hand landmarks (e.g., fingertips, joints) in real-time using a webcam feed.
+![Demo](demo.gif)
+
+## Features
+
+- Real-time detection of facial landmarks including eyes, nose, mouth, and contours.
+- Detection of hand landmarks and connections for both left and right hands.
+- Display of frames per second (FPS) for performance monitoring.
 
 ## Requirements
-- Python (>= 3.6)
-- OpenCV (>= 4.5.3)
-- MediaPipe (>= 0.8.7.1)
 
-You can install the required packages using pip:
+- Python 3.x
+- OpenCV
+- Mediapipe
+
+Install the required Python packages using pip:
+
 ```bash
-pip install opencv-python
-pip install mediapipe
+pip install opencv-python mediapipe
 ```
 
 ## Usage
+
 1. Clone this repository:
+
 ```bash
-git clone https://github.com/your_username/face-hand-landmarks.git
-cd face-hand-landmarks
+git clone https://github.com/your_username/face-and-hand-landmarks-detection.git
+cd face-and-hand-landmarks-detection
 ```
 
-2. Run the main script:
+2. Run the Python script:
+
 ```bash
-python main.py
+python landmarks_detection.py
 ```
 
-This will open a window displaying the webcam feed with face and hand landmarks overlaid in real-time.
+3. To exit the program, press the `Esc` key.
+
+## Acknowledgments
+
+- [MediaPipe](https://mediapipe.dev/)
+- [OpenCV](https://opencv.org/)
+
 
 ## result
 
